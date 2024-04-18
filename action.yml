@@ -2,7 +2,7 @@ name: "Curse publish"
 description: "addons publish to curse/github"
 author: "Dencer"
 inputs:
-  token:
+  curse-wow-token:
     description: "curse token"
     required: true
   github:
