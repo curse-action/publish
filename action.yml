@@ -5,12 +5,6 @@ inputs:
   curse-wow-token:
     description: "curse token"
     required: true
-  github:
-    description: "publish to github(use another git push action to release)"
-    default: true
-  curse:
-    description: "publish to curse"
-    default: true
 runs:
   using: "node20"
   main: "index.js"
